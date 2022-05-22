@@ -1,0 +1,145 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.con{
+  content: url('../images/contacto.jpg');
+  width: 500px
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+div .buttons{
+  display:block;
+  margin: 10px;
+}
+
+.crear{
+  padding: 10px;
+  background: rgba(240, 22, 22, 0.861);
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.crear:hover{
+  background: rgba(235, 102, 102, 0.861);
+}
+
+.buscar{
+  padding: 10px;
+  background: rgb(168, 141, 141);
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.buscar:hover{
+  background: rgb(217, 183, 183);
+}
+
+/*estilos formularios*/
+form{
+  padding: 10px;
+  width: 800px;
+
+}
+input{
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  font-size: 20px;
+  border: 0.5px solid #000;
+  border-radius:20px;
+  padding: 10px;
+}
+
+h1, h3{
+  text-align: center;
+}
+
+.inicio{
+  color: #000;
+}
+
+.createbutton{
+  padding: 10px;
+  width: 400px;
+  border: none;
+  border-radius: 20px;
+  background: rgba(240, 22, 22, 0.861);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.consultbutton{
+  padding: 10px;
+  width: 400px;
+  border: none;
+  border-radius: 20px;
+  background: rgba(22, 95, 240, 0.861);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.createbutton:hover{
+  background: rgba(242, 162, 162, 0.861);
+  color: #000;
+}
+
+/* Tabla*/
+table {
+  border-collapse: collapse;
+  width: 900px;
+}
+
+table,th,td {
+  border: 1px solid black;
+}
+
+th,td {
+  padding: 5px;
+}
+
+.tabletitle{
+  background: rgba(242, 162, 162, 0.861);
+}
+
+.edit{
+ padding: 10px;
+ border: none;
+ border-radius: 10px;
+ background: rgba(86, 80, 80, 0.861);
+ color: #fff;
+}
+
+.delete{
+  padding: 10px;
+
+  border: none;
+  border-radius: 10px;
+  background: rgb(138, 244, 122);
+}

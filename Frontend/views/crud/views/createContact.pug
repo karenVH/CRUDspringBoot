@@ -1,0 +1,37 @@
+extends layout
+
+block content
+    div.flex-container1
+        div.form
+            form(action="" method="POST")
+                h1 Crear Contacto
+                input(type="text" name="name" placeholder="Nombre")
+                input(type="text" name="surnames" placeholder="Apellidos")
+                input(type="number" name="phonenumber" placeholder="Télefono")
+                input(type="email" name="email" placeholder="Correo Electronico")
+                input(type="date" name="date" placeholder="Fecha de Nacimiento")
+                button.createbutton Registrar
+                button.consultbutton Consultar
+                h3
+                    a.inicio(href="/") Volver al Inicio
+        hr
+        div.table 
+            table(class="tableform")
+                tr.tabletitle
+                    th Nombre
+                    th Apellido
+                    th Telefono
+                    th Correo 
+                    th Fecha nacimiento
+                    th Editar 
+                    th Eliminar 
+                tr
+                    td karen
+                    td vasquez
+                    td 3146356372
+                    td karen@gmail.com
+                    td 13/07/2001
+                    td 
+                        button.edit Editar 
+                    td 
+                        button.delete Eliminar
