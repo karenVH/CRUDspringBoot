@@ -36,4 +36,7 @@ Para arrancar el backend puede seguir los siguientes pasos:
 * Viasual debe tener la extencion `Mysql Syntax` y `Mysql vs code` para que puede funcionar la base de datos
 * teniendo la coneccion de la base de datos lista ejecutar el script de base de datos 
 * y para ejectura el resto del proyecto solo darle run
+* el backend ejecuta en el puerto 9090
+
+### Puede utilizar potsman para hacer las peticiones requeridas como POST Y GET
 
