@@ -78,5 +78,9 @@ public class ContactService implements IcontactService{
     public Optional<Contact> findContact(Contact contact) {
         return contactDao.findById(contact.getId());
     }
+
+    public void updateLastName(Long id, Contact contact) {
+        contactDao.updateLastName(id, contact.getLastName());
+    }
     
 }
